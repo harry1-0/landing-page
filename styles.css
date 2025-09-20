@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif, Tahoma;
+}
+.header,
+.footer {
+  color: #e5e7eb;
+  padding: 36px 80px;
+  background-color: #1f2937;
+  font-size: 18px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+.header-logo h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+div.header-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+.hero {
+  display: flex;
+  gap: 24px;
+}
+.hero-text,
+.hero-img {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.hero-text > * {
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.hero-text button {
+  margin: 0;
+}
+.button,
+.call-to-action {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 5px;
+}
+.button {
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 15px;
+}
+.hero-img {
+  border: 1px solid whitesmoke;
+  background-color: rgba(250, 235, 215, 0.096);
+}
+.main {
+}
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 36px 80px;
+}
+.info-title {
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2936;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 24px 36px;
+}
+.card {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 50vh;
+}
+.card-img {
+  border: 3px solid #3882f6;
+  border-radius: 7px;
+}
+.card-img,
+.card-text {
+  flex: 1;
+  padding: 10px;
+}
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  padding: 80px 90px;
+}
+.quote-author {
+  font-weight: 700;
+  text-align: right;
+}
+.action {
+  padding: 70px 80px;
+}
+.call-to-action {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.call-to-action-button {
+  border: 2px solid #e5e7eb;
+}
+.footer{
+    padding: 24px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
